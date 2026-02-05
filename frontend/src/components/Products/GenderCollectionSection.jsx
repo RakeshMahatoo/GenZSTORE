@@ -16,15 +16,14 @@ const GenderCollectionSection = () => {
               </div>
           {/* men */}
            <div className='relative flex-1'>
-                <img src={menCollectionImage} alt="women's collection" className='w-full h-[700px] object-cover' />
+                <img src={menCollectionImage} alt="men's collection" className='w-full h-[700px] object-cover' />
                 <div className='absolute bottom-8 left-8 bg-white/60 rounded-2xl p-4'>
                 <h2 className='text-2xl font-bold  text-gray-900 mb-1'>men's Collections</h2>
                 <Link to="/collections/all?gender=men" className="text-gray-900 underline">Shop Now</Link>
                 </div>
               </div>
-          
         </div>
-
+            
     </section>
   )
 }
